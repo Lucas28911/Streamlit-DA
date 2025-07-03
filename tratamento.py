@@ -8,7 +8,7 @@ import plotly.express as px
 import numpy as np
 
 # --- Tratamento de Dados ---
-file_path = r"/workspaces/Streamlit-DA/Global.Dataset.DAEconomics.Hard.Data.xlsm"
+file_path ="Global.Dataset.DAEconomics.Hard.Data.xlsm"
 df = pd.read_excel(file_path, sheet_name="HARD.DATA", engine="openpyxl")
 
 # Remove colunas 'Unnamed'
